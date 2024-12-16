@@ -43,7 +43,7 @@ var createNewTaskElement = function (taskString) {
   listItem.className = "task";
   checkBox.className = "task__checkbox";
   label.className = "task__label";
-  editInput.className = "task__input";
+  editInput.classList.add("task__input", "input");
   editButton.classList.add("btn", "btn-edit");
   deleteButton.classList.add("btn", "btn-delete");
 
